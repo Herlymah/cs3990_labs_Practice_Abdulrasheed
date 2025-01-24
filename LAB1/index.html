@@ -6,24 +6,95 @@
     <title>CV Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <section class="main-section">
-        <div class="left-part">
-            <div class="photo-container">
-                <img src="profile-image.jpg" alt="">
+    <nav>
+        <ul>
+            <li><a href="#" class="bottom">Top</a></li>
+            <li><a href="#" class="page2.html">Page2</a></li>
+            <li><a href="#" class="top">Bottom</a></li>
+        </ul>
+    </nav>
+
+    <section class="homepage" id="home"> 
+        <div class="homepage-image">
+            <img src="profile.jpeg" alt="Halimah Abdulrasheed" 
+                 title="Professional Headshot" 
+                 class="profile-photo">
+            <h2>Halimah Abdulrasheed</h2>
+        </div>
+        
+        <div class="contact-details">
+            <ul class="contact-list">
+                <li><ion-icon name="briefcase-outline"></ion-icon>Surveyor | IT Technician</li>
+                <li><ion-icon name="location-outline"></ion-icon>Grande Prairie, Alberta</li>
+                <li><ion-icon name="mail-outline"></ion-icon>
+                    <a href="mailto:halimahrasheed@gmail.com" title="Send Email">halimahrasheed@gmail.com</a>
+                </li>
+                <li><ion-icon name="phone-portrait-outline"></ion-icon>780 831 6226</li>
+            </ul>
+            <hr>
+        </div>
+
+        <div class="profile">
+            <h2>Profile</h2>
+            <p class="paragraph1">A highly resourceful, flexible and enthusiastic Graduate Surveyor who as an ambitious geomatics surveyor seeks to obtain a position that will enable her to use work skills, educational background, abilities, and experiences to further expand her knowledge and work ethic in a positive environment and become an asset to the company.</p>
+            <p class="paragraph2">With a strong foundation in surveying and information technology, I am committed to delivering precision and innovation in every project.</p>
+            <p class="paragraph3">My diverse skill set allows me to approach challenges with creativity and analytical thinking, ensuring optimal solutions in complex environments.</p>
+        </div>
+
+        <div class="education">
+            <h2>Education</h2>
+            <ol class="education-list">
+                <li>BACHELOR OF SCIENCE IN SURVEYING AND GEO-INFORMATICS | SEPTEMBER 2019 | UNIVERSITY OF ILORIN, KWARA</li>
+                <li>DIPLOMA IN COMPUTER SYSTEMS TECHNOLOGY | APRIL 2025 | NORTHWESTERN POLYTECHNIC, GRANDE PRAIRIE</li>
+            </ol>
+        </div>
+
+        <div class="skills-container">
+            <div class="technical-skills">
+                <h3><ion-icon name="settings-outline"></ion-icon> Professional Knowledge and Skills</h3>
+                <ul class="skills-list">
+                    <li><p>Java</p><progress max="100" value="70"></progress></li>
+                    <li><p>C++</p><progress max="100" value="50"></progress></li>
+                    <li><p>Python</p><progress max="100" value="50"></progress></li>
+                    <li><p>AutoCad</p><progress max="100" value="80"></progress></li>
+                </ul>
             </div>
-            <div class="contact-container">
-                <h2 class="title">Contact Details</h2>
-                <ul class="contact-info">
-                    <li>
-                        <p></p>
-                    </li>
+    
+            <div class="personal-skills">
+                <h3><ion-icon name="person-outline"></ion-icon> Personal Skills</h3>
+                <ul class="personal-skills-list">
+                    <li>Effective Communication skills, written and verbal, combined with Interpersonal strength</li>
+                    <li>High degree of Professional integrity</li>
+                    <li>Detailed oriented, ability to work unsupervised and meeting up with deadlines</li>
+                    <li>Possess strong processing and Analytical skill</li>
+                    <li>Ability to present complex information in an easy-to-understand format</li>
                 </ul>
             </div>
         </div>
-        <div class="right-part"></div>
+
+        <div class="experience">
+            <h2>Experience</h2>
+            <h4>SURVEYOR | EGIS ENGINEERING | APRIL 2024 – NOVEMBER 2024</h4>
+            <ul class="experience-list">
+                <li>Performed drafting on AutoCAD for the survey data collected in the field</li>
+                <li>Worked as part of a survey crew to assist in determining elevations and laying out stakes for road construction</li>
+                <li>Organized and maintained survey equipment</li>
+            </ul>
+            
+            <h4>ASSISTANT SURVEYOR | SPATIAL LORD LIMITED | FEBRUARY 2022 – DECEMBER 2022</h4>
+            <ul class="experience-list">
+                <li>Collected physical features of the land using various types of survey equipment such as levels, total stations, Differential GPS (DGPS) and GPS</li>
+                <li>Reduced electronic field notes in the computer network and extracts electronic data for field use i.e., setting out of points</li>
+                <li>Analyzed data gotten on field using AutoCAD</li>
+            </ul>
+        </div>
+        <div id="bottom"></div>
     </section>
+
+    <section class="right" id="bottom"></section>
     
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
