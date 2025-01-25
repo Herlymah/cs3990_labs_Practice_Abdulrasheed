@@ -57,6 +57,16 @@ p.paragraph2 {
     position: relative;
 }
 
+p.paragraph2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 30px;
+    background-color: red;
+}
+
 h1 {
     font-family: 'Georgia', serif; 
 }
@@ -65,7 +75,9 @@ h2 {
     font-style: italic;
     background-color: #f0f0f0;
 }
-h3 { font-family: 'Courier New', monospace; }
+h3 { 
+    font-family: 'Courier New', monospace; 
+}
 
 progress {
     width: 100%;
