@@ -2,16 +2,15 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-            padding: 0;
-            height: 100vh;
-            background-image: url('bg.jpg');
-            background-size: cover; 
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed; 
+    padding: 0;
+    height: 100vh;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
-/* Existing Styles */
 .profile-photo {
     border: 3px solid green;
     float: left;
@@ -58,17 +57,9 @@ p.paragraph2 {
     position: relative;
 }
 
-p.paragraph2::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 30px;
-    background-color: red;
+h1 {
+    font-family: 'Georgia', serif; 
 }
-
-h1 { font-family: 'Georgia', serif; }
 h2 { 
     font-family: 'Verdana', sans-serif;
     font-style: italic;
@@ -145,4 +136,3 @@ progress {
     left: 0;
     top: 0;
 }
-</style>
